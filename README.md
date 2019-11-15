@@ -11,7 +11,7 @@ ik heb gekozen voor smashingmagazine.com.
 ### 1.) De HTML is gestructureerd en semantisch opgemaakt
 
 ### 2.) De basis principes van CSS zijn begrepen en toegepast
-[Handige bron:] (codepen.io/joostf)
+[Handige bron:](codepen.io/joostf)
 
 ### 3.) De site is responsive
 
