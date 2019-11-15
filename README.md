@@ -4,15 +4,14 @@ Opdracht voor het vak Frontend @CMD Amsterdam
 [Beschrijf hier wat jij gaat doen]
 
 ik heb gekozen voor smashingmagazine.com. 
-![logo_smashing](_readme/Smashing_Magazine_logo.png)
+![Smashing Magazine Logo](_readme/Smashing_Magazine_logo.png)
 
 
 ## Criteria
 ### 1.) De HTML is gestructureerd en semantisch opgemaakt
 
 ### 2.) De basis principes van CSS zijn begrepen en toegepast
-handige bronnen
-codepen.io/joostf
+[Handige bron: codepen.io/joostf]
 
 ### 3.) De site is responsive
 
