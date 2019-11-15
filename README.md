@@ -4,7 +4,7 @@ Opdracht voor het vak Frontend @CMD Amsterdam
 [Beschrijf hier wat jij gaat doen]
 
 ik heb gekozen voor smashingmagazine.com. 
-[Smashing Magazine Logo](_readme/smlogo.png)
+![Smashing Magazine Logo](_readme/smlogo.png)
 
 
 ## Criteria
