@@ -1,1 +1,12 @@
+header{
+    background: #d33a2c;
+}
 
+.headerLogo{
+    width: 6em;
+    height: 6em;
+}
+
+body{
+    background: #d33a2c;
+}
