@@ -2,7 +2,7 @@
 Opdracht voor het vak Frontend @CMD Amsterdam
 
 Ik heb gekozen om de website www.smashingmagazine.com na te maken door html, css en js te gebruiken. Eerst ga ik focussen op de structuur van de website, dus alles wat in de html zit overnemen. Vervolgens ga ik het vormgeven met css en tot slot micro interacties designen met javascript. 
-![Smashing Magazine Logo](_readme/smlogo.png)
+[Smashing Magazine Logo](_readme/smlogo.png)
 
 
 ## Criteria
