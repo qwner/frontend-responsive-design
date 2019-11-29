@@ -5,7 +5,7 @@ Ik heb gekozen om de website www.smashingmagazine.com na te maken door html, css
 ![Smashing Magazine Logo](_readme/smlogo.png)
 
 Om de structuur van de html te begrijpen heb ik het even geschetst met de tags die ik nodig heb. Hier is de schets:
-![HTML schets smashing magazine](_readme/schetshtml.png)
+![Schets HTML](_readme/schetshtml.png)
 
 
 ## Criteria
