@@ -1,5 +1,9 @@
+body{
+    background-color: #d33a2c;
+}
+
 header{
-    background: #d33a2c;
+    background-color: #d33a2c;
 }
 
 .headerLogo{
@@ -7,6 +11,27 @@ header{
     height: 6em;
 }
 
-body{
-    background: #d33a2c;
+h1{
+    background-color: #ffffff;
+    text-align: center;
+    display: inline;
+    font-family: Calibri;
+}
+
+main article{
+    font-family: Calibri;
+    
+}
+
+main article{
+    font-family: Calibri;
+    color: #ffffff;
+    
+}
+
+main article img{
+    width: 5em;
+    height: 5em;
+    border: 0.2em solid #ffffff;
+    border-radius: 10px;
 }
