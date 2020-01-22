@@ -18,9 +18,11 @@ h1{
     font-family: Calibri;
 }
 
-main article{
-    font-family: Calibri;
-    
+/* ----------M A I N---------- */
+
+main article:nth-child(odd){
+    background-color: #bc3428;
+
 }
 
 main article{
@@ -32,6 +34,19 @@ main article{
 main article img{
     width: 5em;
     height: 5em;
-    border: 0.2em solid #ffffff;
+    border: 0.35em solid #ffffff;
     border-radius: 10px;
+}
+
+/* ----------M E M B E R S H I P---------- */
+
+#Membership {
+    color: #ffffff;
+    background-color: #282634;
+    padding: 2em;
+}
+
+#Membership a{
+    background-color: #41b14f;
+    padding: 1em;
 }
