@@ -1,5 +1,7 @@
 body{
     background-color: #d33a2c;
+    margin: 0;
+    margin-top: 1em;
 }
 
 header{
@@ -17,6 +19,13 @@ h1{
     display: inline;
     font-family: Calibri;
 }
+
+/* h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: white;
+} */
 
 /* ----------M A I N---------- */
 
@@ -45,6 +54,7 @@ main article img{
     background-color: #282634;
     padding: 2em;
     font-family: Calibri;
+
 }
 
 #Membership img{
@@ -61,5 +71,117 @@ main article img{
 /* ----------L A T E S T---------- */
 
 #Latest {
+    background-color: #eeeeee;
+    padding-top: 3em;
+}
+
+#Latest h2{
+    font-family: Calibri;
+    text-decoration: underline;
+    color: #000000;
+}
+
+#Latest article {
+    padding-top: 3em;
+    height: 16em;
+}
+
+#Latest article:hover{
+background-color: white;
+box-shadow: 0 0 0.8em #a7a7a7;
+}
+
+#Latest article:hover h2{
+    color: #bc3428;
+}
+
+#Latest a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ----------F E A T U R E S---------- */
+
+#Features{
+    background-color: #d33a2c;
+    color: #ffffff;
+    text-align: center;
+    margin: auto .25em;
+    border-radius: 10px;
+    padding: 3em 2em 2em;
+}
+
+#Features img{
+    width: 14em;
+    height: 14em;
+    margin-bottom: 2em;
+}
+
+#Features a{
+    text-decoration-color: #ffffff;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#Features p{
+    margin-bottom: 2em;
+    font-size: 1.1em;
+    font-weight: 0.5em;
+    line-height: 1.3em;
+    word-spacing: 0.3em;
+    margin: 2em 1.8em;
+}
+
+#Features footer p{
+    font-size: .8em;
+}
+#Features footer{
+    margin-top: 2em;
+}
+
+#Features #ExploreButton{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 1.15em;
+    text-decoration: none;
     background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    color: #267dcc;
+}
+
+#Features h2{
+    font-size: 1.90em;
+    margin: auto 2em;
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+}
+
+/* ----------S U B S C R I B E---------- */
+
+#Subscription{
+    background-color: #d33a2c;
+    margin: auto 2em;
+    border-radius: 10px;
+    padding: 3em 1em;
+}
+
+#Subscription fieldset {
+    border: none;
+}
+
+#Subscription input {
+    width: 10em;
+    height: 3.5em;
+    border-radius: 1em;
+    border: none;
+}
+
+#Subscription button { 
+    width: 10em;
+    height: 3.5em;
+    border-radius: 1em;
+    border: solid;
+    border-color: white;
+    background-color: #d33a2c;
 }
