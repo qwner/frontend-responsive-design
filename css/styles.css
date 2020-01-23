@@ -16,7 +16,8 @@ header{
 h1{
     background-color: #ffffff;
     text-align: center;
-    display: inline;
+    display: flex;
+    justify-content: center;
     font-family: Calibri;
 }
 
