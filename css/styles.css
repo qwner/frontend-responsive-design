@@ -30,6 +30,7 @@ main article:nth-child(odd){
 main article{
     font-family: Calibri;
     color: #ffffff;
+    padding: 3em 1.5em 3em 1.5em;
     display: flex;
     flex-direction: column;
 }
