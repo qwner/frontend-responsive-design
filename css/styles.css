@@ -20,13 +20,6 @@ h1{
     font-family: Calibri;
 }
 
-/* h1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: white;
-} */
-
 /* ----------M A I N---------- */
 
 main article:nth-child(odd){
@@ -37,7 +30,8 @@ main article:nth-child(odd){
 main article{
     font-family: Calibri;
     color: #ffffff;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 main article img{
@@ -46,6 +40,7 @@ main article img{
     border: 0.35em solid #ffffff;
     border-radius: 10px;
 }
+
 
 /* ----------M E M B E R S H I P---------- */
 
@@ -73,6 +68,8 @@ main article img{
 #Latest {
     background-color: #eeeeee;
     padding-top: 3em;
+    display: flex;
+    flex-direction: column;
 }
 
 #Latest h2{
@@ -82,8 +79,7 @@ main article img{
 }
 
 #Latest article {
-    padding-top: 3em;
-    height: 16em;
+    padding: 3em 1.5em 5em 1.5em;
 }
 
 #Latest article:hover{
