@@ -87,7 +87,7 @@ main article .arrowNext{
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.3em;
     border: none;
 }
 
@@ -142,10 +142,26 @@ box-shadow: 0 0 0.8em #a7a7a7;
     color: #bc3428;
 }
 
+#Latest article:hover .arrowLatest{
+    background-color: #006fc6;
+    color: #ffffff;
+}
+
 #Latest a{
     text-decoration: none;
     color: #000000;
 }
+
+#Latest .arrowLatest{
+    font-family: Calibri;
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: #d33a2c;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
 
 /* ----------F E A T U R E S---------- */
 
@@ -203,6 +219,7 @@ box-shadow: 0 0 0.8em #a7a7a7;
     text-decoration-color: #ffffff;
     color: #ffffff;
 }
+
 
 /* ----------S U B S C R I B E---------- */
 
