@@ -30,18 +30,67 @@ main article:nth-child(odd){
 
 main article{
     font-family: Calibri;
+    letter-spacing: -0.05em;
+    font-size: 1.2em;
     color: #ffffff;
     padding: 3em 1.5em 3em 1.5em;
     display: flex;
     flex-direction: column;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    
 }
 
+main article p{
+    display:flex;
+}
+
+main article p a{
+    margin-right: 0.5em;
+}
+
+
 main article img{
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     border: 0.35em solid #ffffff;
     border-radius: 10px;
+    margin-right: 0.5em;
 }
+
+main article a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+main article ul a{
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+main article ul li:nth-child(2){
+    margin-left: 1em;
+}
+
+main article ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+main article .arrowNext{
+    display: inline-block;
+    fill: #ffffff;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border: none;
+}
+
 
 
 /* ----------M E M B E R S H I P---------- */
@@ -182,4 +231,12 @@ box-shadow: 0 0 0.8em #a7a7a7;
     border: solid;
     border-color: white;
     background-color: #d33a2c;
+}
+/* ----------B R E A K P O I N T 1---------- */
+@media (min-width:40em) {
+
+}
+
+/* ----------B R E A K P O I N T 2---------- */
+@media (min-width: 75em) {
 }
