@@ -313,6 +313,14 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
     border-color: white;
     background-color: #d33a2c;
 }
+
+/* ----------F O O T E R---------- */
+
+/* footer{
+    color: #ffffff;
+    text-decoration-color: #000000;
+} */
+
 /* ----------B R E A K P O I N T 1---------- */
 @media (min-width:40em) {
 
