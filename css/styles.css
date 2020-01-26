@@ -13,12 +13,15 @@ header{
     height: 6em;
 }
 
-h1{
+h1 span{
     background-color: #ffffff;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    padding: 0.2em;
     font-family: Calibri;
+}
+
+h1{
+    text-align: center;
+    color: #333333;
 }
 
 /* ----------M A I N---------- */
@@ -36,8 +39,7 @@ main article{
     padding: 3em 1.5em 3em 1.5em;
     display: flex;
     flex-direction: column;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-    
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);  
 }
 
 main article p{
@@ -97,21 +99,51 @@ main article .arrowNext{
 
 #Membership {
     color: #ffffff;
-    background-color: #282634;
+    /* background-color: #282634; */
+    background-image: linear-gradient(rgb(40, 38, 52), rgb(18, 52, 86));
     padding: 2em;
-    font-family: Calibri;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#Membership p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#Membership li{
+    font-size: 1.2em;
+    text-align: left;
+    padding-bottom: 0.5em;
+}
+
+#Membership ul{
+    align-self: left;
+    padding-left: 1.5em;
 
 }
 
 #Membership img{
-    width: 10em;
-    height: 10em;
+    width: 20em;
+    height: 20em;
+    padding-bottom: 2em;
 }
 
 #Membership a{
     background-color: #41b14f;
-    padding: 0.5em;
-    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.6em 0.5em;
+    font-size: 1.3em;
+    border-radius: 10px;
+    font-family: Calibri;
+    align-self: left;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 /* ----------L A T E S T---------- */
@@ -225,24 +257,56 @@ box-shadow: 0 0 0.8em #a7a7a7;
 
 #Subscription{
     background-color: #d33a2c;
-    margin: auto 2em;
+    margin: 2em 2em;
     border-radius: 10px;
-    padding: 3em 1em;
+    padding: 2em 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-#Subscription fieldset {
+#Subscription p{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#Subscription h2 a{
+color:white;
+font-size: 1.4em;
+text-decoration: underline;
+letter-spacing: -0.05em;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#Subscription fieldset{
     border: none;
 }
 
-#Subscription input {
-    width: 10em;
+#Subscription img{
+    width: 20em;
+    height: 20em;
+}
+
+#Subscription input{
     height: 3.5em;
+    width: 15em;
     border-radius: 1em;
+    display: block;
     border: none;
+    margin: 1em 0;
+    color: #000000;
 }
 
-#Subscription button { 
-    width: 10em;
+::-webkit-input-placeholder { /*BRON https://www.w3schools.com/cssref/sel_placeholder.asp*/
+    color: #000000;
+  }
+
+#Subscription button{ 
+    font-weight: bold;
+    font-family: Calibri;
+    color: #ffffff;
+    width: 15em;
     height: 3.5em;
     border-radius: 1em;
     border: solid;
