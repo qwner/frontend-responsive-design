@@ -395,11 +395,19 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 
 #detailWriter #authorInfo ul{
     display: flex;
-    color: #ffffff;
-    text-decoration: underline;
     font-size: 1.05em;
     font-family: Calibri;
     font-weight: 600;
+}
+
+#detailWriter #authorInfo li{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#detailWriter #authorInfo ul li:hover{
+    color: #000000;
+    text-decoration-color: #000000;
 }
 
 #detailWriter #authorInfo ul li:nth-child(2){
