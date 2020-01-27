@@ -24,6 +24,8 @@ h1 span{
 h1{
     text-align: center;
     color: #333333;
+    letter-spacing: -0.05em;
+    word-spacing: 0.2em;
 }
 
 /* ----------M A I N---------- */
@@ -51,7 +53,6 @@ main article p{
 main article p a{
     margin-right: 0.5em;
 }
-
 
 main article img{
     width: 4em;
@@ -330,6 +331,80 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 @media (min-width: 75em) {
 }
 
+/* --------------- D E T A I L W R I T E R --------------- */
+
+#detailWriter{
+    background-color: #ffffff;
+    margin: 0;
+}
+
+#detailWriter #authorInfo img {
+    width: 5em;
+    height: 5em;
+    border: 0.35em solid #ffffff;
+    border-radius: 10px;
+    margin-right: 0.5em;
+}
+
+#detailWriter header{
+    background-color: #d33a2c;
+    padding-top: 1em;
+}
+
+#detailWriter .headerLogo{
+    width: 6em;
+    height: 6em;
+}
+
+#detailWriter #authorInfo{
+    display:flex;
+    flex-direction: column;
+    padding: 1em 1em;
+}
+
+#detailWriter #authorInfo p{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+#detailWriter #authorInfo h1{
+    color: #ffffff;
+    font-family: Calibri;
+    text-align: left;
+    font-size: 2.4em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#detailWriter #authorInfo span{
+    color: #ffffff;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 0.2em;
+    margin-top: 0.8em;
+}
+
+#detailWriter #authorInfo footer span{
+    color: #000000;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+#detailWriter #authorInfo ul{
+    display: flex;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 1.05em;
+    font-family: Calibri;
+    font-weight: 600;
+}
+
+#detailWriter #authorInfo ul li:nth-child(2){
+    margin-left: 2em;
+}
 /* --------------- D E T A I L P A G E --------------- */
 
 #detailPage{
@@ -340,3 +415,15 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 #detailPage header{
     padding-top: 1em;
 }
+
+#detailPage img{
+    width: 9em;
+    height: 9em;
+    border: 0.35em solid #d33a2c;
+    border-radius: 10px;
+}
+
+#detailPage main{
+    padding-top: 2em;
+}
+
