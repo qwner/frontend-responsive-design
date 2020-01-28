@@ -30,12 +30,12 @@ h1{
 
 /* ----------M A I N---------- */
 
-main article:nth-child(odd){
+#indexMain article:nth-child(odd){
     background-color: #bc3428;
 
 }
 
-main article{
+#indexMain article{
     font-family: Calibri;
     letter-spacing: -0.05em;
     font-size: 1.2em;
@@ -46,15 +46,15 @@ main article{
     text-shadow: 1px 1px rgba(0, 0, 0, 0.3);  
 }
 
-main article p{
+#indexMain article p{
     display:flex;
 }
 
-main article p a{
+#indexMain article p a{
     margin-right: 0.5em;
 }
 
-main article img{
+#indexMain article img{
     width: 4em;
     height: 4em;
     border: 0.35em solid #ffffff;
@@ -62,31 +62,31 @@ main article img{
     margin-right: 0.5em;
 }
 
-main article a{
+#indexMain article a{
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
     color: #ffffff;
 }
 
-main article ul a{
+#indexMain article ul a{
     text-decoration: none;
     font-size: 0.8em;
     font-weight: bold;
     color: #ffffff;
 }
 
-main article ul li:nth-child(2){
+#indexMain article ul li:nth-child(2){
     margin-left: 1em;
 }
 
-main article ul{
+#indexMain article ul{
     list-style: none;
     display: flex;
     padding: 0;
 }
 
-main article .arrowNext{
+#indexMain article .arrowNext{
     display: inline-block;
     fill: #ffffff;
     text-decoration: none;
@@ -102,7 +102,6 @@ main article .arrowNext{
 
 #Membership {
     color: #ffffff;
-    /* background-color: #282634; */
     background-image: linear-gradient(rgb(40, 38, 52), rgb(18, 52, 86));
     padding: 2em;
     display:flex;
@@ -413,9 +412,94 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 #detailWriter #authorInfo ul li:nth-child(2){
     margin-left: 2em;
 }
+
+#detailWriter main article{
+    font-family: Calibri;
+    letter-spacing: -0.05em;
+    background-color: #ffffff;
+    font-size: 1.2em;
+    color: #333333;
+    padding: 3em 1.5em 3em 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#detailWriter main article .nameLink{
+    text-decoration: underline;
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 0.2em;
+    color: #666666;
+}
+
+#detailWriter main article h2:hover{
+    color: #d33a2c;
+}
+
+#detailWriter main article a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #666666;
+    margin: 0;
+}
+
+#detailWriter main article ul{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#detailWriter main article ul li:nth-child(1){
+    text-decoration: none;
+    font-size: 0.8em;
+    list-style-type: none;
+    color: #666666;
+    margin-right:2em;
+}
+
+#detailWriter main article ul li:nth-child(2){
+    text-decoration: underline;
+    list-style-type: none;
+    font-size: 0.8em;
+    color: #666666;
+    margin: 0;
+}
+
+#detailWriter main article img{
+    width: 3em;
+    height: 3em;
+    border: 0.35em solid #d33a2c;
+    border-radius: 10px;
+    margin-right: 0.5em;
+}
+
+#detailWriter main article .readMore{
+    color: #006fc6;
+    text-decoration: underline;
+}
+
+#detailWriter article p{
+    display:flex;
+}
+
+#detailWriter article .storyContent{
+    font-family: none;
+    line-height: 1.3em;
+    word-spacing: 0.1em;
+    letter-spacing: 0.02em;
+    font-size: 0.95em;
+    color: #333333;
+}
+
+/* ----------M A I N---------- */
+
+
+
 /* --------------- D E T A I L P A G E --------------- */
 
-#detailPage{
+/* #detailPage{
     background-color: #ffffff;
     margin-top: 0;
 }
@@ -433,5 +517,5 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 
 #detailPage main{
     padding-top: 2em;
-}
+} */
 
