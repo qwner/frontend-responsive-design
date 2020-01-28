@@ -413,6 +413,8 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
     margin-left: 2em;
 }
 
+/* ----------M A I N 2---------- */
+
 #detailWriter main article{
     font-family: Calibri;
     letter-spacing: -0.05em;
@@ -492,8 +494,6 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
     font-size: 0.95em;
     color: #333333;
 }
-
-/* ----------M A I N---------- */
 
 
 
