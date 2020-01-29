@@ -5,16 +5,6 @@ body{
     margin: 0;
 }
 
-header{
-    background-color: #d33a2c;
-    padding-top: 1em;
-}
-
-.headerLogo{
-    width: 6em;
-    height: 6em;
-}
-
 h1 span{
     background-color: #ffffff;
     padding: 0.2em;
@@ -27,6 +17,111 @@ h1{
     letter-spacing: -0.05em;
     word-spacing: 0.2em;
 }
+
+/* ----------H E A D E R---------- */
+
+header{
+    background-color: #d33a2c;
+    padding-top: 1em;
+
+    /* justify-content: space-between;  */
+}
+
+.headerLogo{
+    width: 4em;
+    height: 4em;
+}
+
+header button{
+    background-color: #d33a2c;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+    border-width: 0.2em;
+    width: 4em;
+    height: 2em;
+    color: white;
+    font-family: Calibri;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-right: 1em;
+    float: right;
+}
+
+header nav{
+    padding: 1em 2em;
+}
+
+header ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 3em;
+    font-family: Calibri;
+    font-weight: 900;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+header{
+    position: relative;
+}
+
+header li{
+    width: 8em;
+    height: 4em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+header li a:hover{
+    color:black;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
+header form {
+    text-align: center;
+}
+
+header form input{
+    border-radius: 8px; 
+    border-style: none; 
+    width: 26em;
+    height: 4.5em;
+    padding: 0 1em;
+}
+
+nav{
+    opacity:0;
+    position:absolute;
+    transform-origin:center top;
+
+}
+
+
+.showMe{
+    opacity:1;
+    position:relative;
+    transition: ease-in 0.5s;
+}
+
+
+/* header nav{
+    display: none;
+} */
+
+
+
+/* .showMe{
+    display:block;
+} */
+
 
 /* ----------M A I N---------- */
 
@@ -279,11 +374,11 @@ box-shadow: 0 0 0.8em #a7a7a7;
 }
 
 #Subscription h2 a{
-color:white;
-font-size: 1.4em;
-text-decoration: underline;
-letter-spacing: -0.05em;
-text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    color:white;
+    font-size: 1.4em;
+    text-decoration: underline;
+    letter-spacing: -0.05em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 #Subscription fieldset{
@@ -345,19 +440,10 @@ text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
     margin-right: 0.5em;
 }
 
-#detailWriter header{
-    background-color: #d33a2c;
-    padding-top: 1em;
-}
-
-#detailWriter .headerLogo{
-    width: 6em;
-    height: 6em;
-}
-
 #detailWriter #authorInfo{
     display:flex;
     flex-direction: column;
+    background-color: #d33a2c;
     padding: 1em 1em;
 }
 
