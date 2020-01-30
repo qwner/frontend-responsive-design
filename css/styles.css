@@ -1,3 +1,26 @@
+/* Ik heb nauwelijks code gecopy paste van websites. Alleen uitleg dingen opgezocht en deze toegepast
+
+ik heb paar websites gebruikt die ik als bron zal vermelden
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://gridbyexample.com/examples/
+https://stackoverflow.com/questions/57222615/css-display-as-inline-block-background-color-property-doesnt-cover-the-content
+https://www.w3schools.com/howto/howto_css_responsive_form.asp
+https://codepen.io/joostf/pen/MOxQex
+https://codepen.io/joostf/pen/YpEVyK
+
+JOOST FABER
+SANNE'T HOOFT
+DAVID DE VRIES
+LAURA (ook docent)
+
+
+Meeste dingen heb ik gewoon van standaard websites door te googlen hoe een bepaalde CSS properties werken.
+Als ik echt veel hulp heb gekregen dan is dat bij de code vermeld
+
+*/
+
 /* --------------- H O M E P A G E --------------- */
 body {
     background-color: #d33a2c;
@@ -46,7 +69,7 @@ header button {
     float: right;
 }
 
-/* SANNE!!! heeft geholpen met de animatie en het verstoppen van content.
+/* SANNE'T HOOFT!!! heeft geholpen met de animatie en het verstoppen van content.
 Overflow:hidden samen met 'max-height: 0em' zorgt er voor dat alle content 
 verborgen wordt. Ook is er wat van Ceaser CSS Easing animation
 https://matthewlein.com/tools/ceaser*/
@@ -444,6 +467,7 @@ header form input {
         background-color: #bc3428;
     }
 
+    /*https://css-tricks.com/snippets/css/complete-guide-grid/*/
     #Latest {
         display: grid;
         grid-column: 1/3;
